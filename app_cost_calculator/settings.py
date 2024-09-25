@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wda#6!3of2j#-419h+k0m2l%o(x2&@=&1danizshtv+uhp!132
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1',]
+ALLOWED_HOSTS = ['localhost','127.0.0.1','app_cost_calculator.onrender.com']
 
 
 # Application definition
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'app_cost_calculator.wsgi.application'
+ASGI_APPLICATION = 'app_cost_calculator.asgi.application'
 
 
 # Database
