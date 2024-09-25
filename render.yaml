@@ -3,7 +3,7 @@
 services:
   - type: web
     plan: free
-    name: mysite
+    name: app_cost_calculator
     runtime: python
     buildCommand: "./build.sh"
     startCommand: "python -m gunicorn mysite.wsgi:application"
