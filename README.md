@@ -60,7 +60,7 @@ Before running the project, ensure you have the following installed:
 
 ## Customization
 
-- Adjust the app features and categories in the backend (`calculator/views.py`) and frontend (`calculator/templates/index.html` )
+- Adjust the app features and categories in the backend (`calculator/views.py`) and frontend (`calculator/templates/cost_calculator.html` )
 
 ## Deployment
 
