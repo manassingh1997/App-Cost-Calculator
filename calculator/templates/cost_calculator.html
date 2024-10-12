@@ -82,7 +82,6 @@
                 <div id="features" class="">
                 </div>
                 <p>Total Cost: $<span id="total-cost">0</span></p>
-                <button type="submit" class="btn btn-primary mx-auto mt-4 ">Submit</button>
               </form>
         </div>
         
@@ -125,7 +124,7 @@
                 });
             })
 
-            document.getElementById('cost-calculator').addEventListener('submit', function(event) {
+            document.getElementById('cost-calculator').addEventListener('change', function(event) {
                 event.preventDefault();
                 
                 const selectedCategory = document.getElementById('category').value;
